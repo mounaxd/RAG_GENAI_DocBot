@@ -1,1 +1,1 @@
-# genai_medical_chatbot
+# Genai_Medical_Docbot or Chatbot.
