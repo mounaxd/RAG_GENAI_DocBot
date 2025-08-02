@@ -5,7 +5,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from src.helper import load_pdf, text_splitter
 
 load_dotenv()
-
+# manual index creation
 # Load your API key and environment
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 INDEX_NAME = "medical"
