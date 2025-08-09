@@ -1,3 +1,10 @@
+# --- My Custom Ignores ---
+
+# Ignore large model files
+model/
+
+# Ignore large data files
+data/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -10,7 +17,13 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+dist/# --- My Custom Ignores ---
+
+# Ignore large model files
+model/
+
+# Ignore large data files
+data/
 downloads/
 eggs/
 .eggs/
@@ -120,6 +133,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.model
 .env
 .venv
 env/
